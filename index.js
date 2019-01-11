@@ -1,13 +1,7 @@
-import express from "express";
-import consign from "consign";
+// importar express ECMA-6
+import express from 'express';
 
+// configuracion de puerto 
+const PORT = 3000;
+// referencia a express()
 const app = express();
-
-consign()
-    .include("models")
-    .then("libs/middlewares.js")
-    .then("routes")
-    .then("libs/boot.js")
-    .into(app);
-
-
