@@ -5,6 +5,7 @@
 // params.storage: A specific attribute for only SQLite3, it defines the directory where the database files will be recorded.
 // params.define.underscored: Standardizes the tables fields’ names to appear in lowercase letters with an underscore.
 
+// Se incluye libs:{config:{......}} dentro de App
 module.exports = {
     database: "ntask",
     username: "jesus",
